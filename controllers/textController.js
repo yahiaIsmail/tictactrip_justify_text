@@ -20,7 +20,7 @@ exports.get_token =  [
     body('email', 'A valid email is required').isEmail().normalizeEmail(),
   
     // Process request after validation and sanitization.
-    (req, res, next) => {
+    (req, res) => {
   
       // Extract the validation errors from a request.
       const errors = validationResult(req);
