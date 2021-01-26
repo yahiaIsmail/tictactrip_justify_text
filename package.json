@@ -24,6 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "loadsh": "0.0.4",
     "lodash": "^4.17.20",
+    "lodash.isempty": "^4.4.0",
     "morgan": "~1.9.1"
   },
   "devDependencies": {
