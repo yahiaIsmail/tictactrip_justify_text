@@ -3,3 +3,9 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  ul
+    li
+      a(href="/api/token") POST : Get you JWT token and pass your email via postman. Email example : foo@bar.com
+    li
+      a(href="/api/justify") POST : Justify text and pass the text as text/plain in body.
